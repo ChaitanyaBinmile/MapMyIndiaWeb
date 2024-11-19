@@ -51,7 +51,7 @@ const Map = () => {
     // Load the Mappls JavaScript SDK dynamically
     const script = document.createElement('script');
     script.src =
-      'https://apis.mappls.com/advancedmaps/api/a425b68931c1b22f1f3a5681961cf608/map_sdk?layer=vector&v=3.0';
+      'https://apis.mappls.com/advancedmaps/api/<YOUR-API-KEY>/map_sdk?layer=vector&v=3.0';
     script.async = true;
     script.defer = true;
     script.onload = loadMap; // Initialize the map when the script is loaded
